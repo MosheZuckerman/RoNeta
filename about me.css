@@ -1,0 +1,115 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6;
+    font-size: 2em; 
+    color: #808000;
+    margin: 2%; 
+    padding: 1%; 
+    background-image: url("site pics/backrounds/1.jpg");
+    background-size: cover;
+    background-position: center;
+    font-weight: normal;
+}
+
+.page-navigation {
+    list-style: none;
+    padding: 2%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    color: #000; 
+}
+
+.page-navigation li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.page-navigation a {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+.page-navigation a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: transparent; 
+}
+
+.content-container {
+    text-align: center;
+    position: relative;
+}
+
+
+
+img.logo {
+    width: 300px;
+    height: 300px;
+    filter: brightness(0);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: filter 0.3s ease-in-out; 
+}
+
+img.logo:hover {
+    filter: brightness(9);	
+}	
+
+
+
+ol {
+    list-style-type: none;
+    padding: 50px;
+    text-align: center;
+    color: #808000;
+    margin-top: 200px; 
+}
+
+ol h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+    color: #808000;
+}
+
+ol li {
+    margin: 1em;
+}
+
+img.family-image {
+    width: 175px;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    max-width: 100%;
+    float: none !important; 
+}
+.logo {
+    top: 2%; 
+    right: 2%;
+}
+.family-image {
+    width: 100%;
+    height: auto;
+}
+* Example media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .top-left a {
+        font-size: 30px;
+    }
+
+    header img.logo {
+        width: 300px;
+    }
+
+    .gallery img {
+        width: 150px;
+    }
+}

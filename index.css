@@ -1,0 +1,107 @@
+body {
+    margin: -10px;
+    padding: 2px;
+    font-family: 'Helvetica', sans-serif;
+    background-image: url("site pics/backrounds/2.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set the height to 100% */
+}
+        body,
+        html {
+            height: 100%;
+            min-height: 100%;
+        }
+
+        .page-navigation {
+            list-style: none;
+            padding: 50px;
+            margin: 0;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .page-navigation li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .page-navigation a {
+            text-decoration: none;
+            font-size: 30px;
+            color: #F5F5DC;
+        }
+
+        .page-navigation a:hover {
+            text-decoration: underline;
+            color: #808000;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .logo-container:hover .logo {
+            filter: brightness(1) invert(0);
+        }
+
+        img.logo {
+            width: 300px;
+            height: 300px;
+            filter: brightness(0) invert(1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .additional-image {
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+            max-width: 400px;
+            height: auto;
+        }
+
+        h1 {
+            color: #F5F5DC;
+            text-align: center;
+        }
+
+        .gallery a {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 20px 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #808000;
+            display: block;
+        }
+		.page-navigation {
+			z-index: 1;
+		}
+
+		.additional-image {
+			z-index: 0;
+		}
+@media only screen and (max-width: 600px) {
+    .page-navigation li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .page-navigation a {
+        font-size: 30px;
+    }
+
+    header img.logo {
+        width: 300px;
+    }
+
+    .gallery img {
+        width: 150px;
+    }
+}
