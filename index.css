@@ -113,12 +113,9 @@ body {
 		}
 /* Existing styles for larger screens */
 
-@media only screen and (max-width: 200px) {
-    /* Adjustments for smaller screens */
-	
-    
-.additional-image {
-  .additional-image {
+/* Adjustments for screens up to 600px wide */
+@media only screen and (max-width: 600px) {
+    .additional-image {
         position: absolute;
         bottom: 10px; /* Adjusted bottom position to bring the additional image down */
         left: 5px; /* Adjusted left position to maintain its left alignment */
@@ -126,8 +123,7 @@ body {
         height: auto;
     }
 
-
-	body {
+    body {
         margin: 0;
         padding: 0;
     }
@@ -156,4 +152,9 @@ body {
     .gallery img {
         max-width: 100%; /* Allow images to scale based on the container width */
     }
+}
+
+/* Adjustments for screens between 601px and 800px wide */
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    /* Styles specific to this width range */
 }
