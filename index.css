@@ -113,27 +113,27 @@ body {
 		}
 /* Existing styles for larger screens */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
     /* Adjustments for smaller screens */
 
     .top-left a {
-        font-size: 18px; /* Adjusted font size for smaller screens */
+        font-size: 12px; /* Adjusted font size for smaller screens */
     }
 
     header img.logo {
-        width: 200px; /* Adjusted width for the logo on smaller screens */
+        width: 150px; /* Adjusted width for the logo on smaller screens */
         margin-top: 20px; /* Adjusted margin-top to bring the logo down */
     }
 
     .page-navigation {
         top: 5px; /* Adjusted top position to move the navigation up */
-        padding: 10px; /* Adjusted padding for better spacing on smaller screens */
+        padding: 5px; /* Adjusted padding for better spacing on smaller screens */
         margin: 0; /* Removed margin for better alignment */
     }
 
     .gallery {
         grid-template-columns: repeat(1, 1fr); /* Adjusted grid for one column on smaller screens */
-        grid-gap: 20px; /* Reduced grid gap for better spacing on smaller screens */
+        grid-gap: 5px; /* Reduced grid gap for better spacing on smaller screens */
         margin-top: 40px; /* Reduced top margin for better spacing on smaller screens */
     }
 
