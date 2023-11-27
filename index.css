@@ -111,32 +111,44 @@ body {
 		.additional-image {
 			z-index: 0;
 		}
-
+			test
 /* Adjustments for screens up to 600px wide */
 @media only screen and (max-width: 600px) {
-    body .additional-image {
-        bottom: 10px;
-        left: 5px;
+    .additional-image {
+        position: absolute;
+        bottom: 10px; /* Adjusted bottom position to bring the additional image down */
+        left: 5px; /* Adjusted left position to maintain its left alignment */
         max-width: 100%;
         height: auto;
     }
 
-    body .top-left a {
-        font-size: 12px;
-    }
-
-    body header img.logo {
-        width: 150px;
-        margin-top: 20px;
-    }
-
-    body .page-navigation {
-        top: 5px;
-        padding: 5px;
+    body {
         margin: 0;
+        padding: 0;
     }
 
-    body .gallery {
-        margin-top: 40px;
+    .top-left a {
+        font-size: 12px; /* Adjusted font size for smaller screens */
+    }
+
+    header img.logo {
+        width: 150px; /* Adjusted width for the logo on smaller screens */
+        margin-top: 20px; /* Adjusted margin-top to bring the logo down */
+    }
+
+    .page-navigation {
+        top: 5px; /* Adjusted top position to move the navigation up */
+        padding: 5px; /* Adjusted padding for better spacing on smaller screens */
+        margin: 0; /* Removed margin for better alignment */
+    }
+
+    .gallery {
+        grid-template-columns: repeat(1, 1fr); /* Adjusted grid for one column on smaller screens */
+        grid-gap: 5px; /* Reduced grid gap for better spacing on smaller screens */
+        margin-top: 40px; /* Reduced top margin for better spacing on smaller screens */
+    }
+
+    .gallery img {
+        max-width: 100%; /* Allow images to scale based on the container width */
     }
 }
