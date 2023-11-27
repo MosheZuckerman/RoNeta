@@ -1,13 +1,19 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
+    background-color: #808080;
     margin: -10px;
     padding: 2px;
     font-family: 'Helvetica', sans-serif;
     background-image: url("site pics/backrounds/2.jpg") !important;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 100%; 
-}
+    background-repeat
+
 
 .top-left {
     position: absolute;
@@ -111,6 +117,8 @@ body {
 		.additional-image {
 			z-index: 0;
 		}
+/* Your existing styles */
+
 @media only screen and (max-width: 600px) {
     .top-left a {
         font-size: 12px; /* Adjusted font size for smaller screens */
@@ -120,7 +128,8 @@ body {
         width: 100px; /* Adjusted width for the logo on smaller screens */
         margin-top: 5px; /* Adjusted margin-top to bring the logo down */
     }
-	.page-navigation {
+
+    .page-navigation {
         top: 5px; /* Adjusted top position to move the navigation up */
         padding: 5px; /* Adjusted padding for better spacing on smaller screens */
         margin: 0; /* Removed margin for better alignment */
@@ -135,7 +144,7 @@ body {
     .gallery img {
         max-width: 100%; /* Allow images to scale based on the container width */
     }
-}
+
     .additional-image {
         bottom: 5px; /* Adjusted bottom position to bring the additional image up */
     }
