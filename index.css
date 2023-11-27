@@ -1,12 +1,12 @@
 body {
-    margin: -10px;
+    margin: 10px;
     padding: 2px;
     font-family: 'Helvetica', sans-serif;
     background-image: url("site pics/backrounds/2.jpg") !important;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; 
+    min-height: 100vh; 
 }
 
 .top-left {
@@ -115,6 +115,10 @@ body {
 
 @media only screen and (max-width: 400px) {
     /* Adjustments for smaller screens */
+	body {
+        margin: 0;
+        padding: 0;
+    }
 
     .top-left a {
         font-size: 12px; /* Adjusted font size for smaller screens */
