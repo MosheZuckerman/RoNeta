@@ -115,6 +115,11 @@ body {
 
 @media only screen and (max-width: 400px) {
     /* Adjustments for smaller screens */
+	
+    .additional-image {
+        bottom: 10px; /* Adjusted bottom position to bring the additional image down */
+    }
+
 	body {
         margin: 0;
         padding: 0;
