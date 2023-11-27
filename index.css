@@ -111,17 +111,16 @@ body {
 		.additional-image {
 			z-index: 0;
 		}
-/* Existing styles for larger screens */
 
-/* Adjustments for screens up to 50px wide */
+/* Adjustments for screens up to 600px wide */
 @media only screen and (max-width: 600px) {
     .additional-image {
-        position: absolute;
         bottom: 10px; /* Adjusted bottom position to bring the additional image down */
         left: 5px; /* Adjusted left position to maintain its left alignment */
         max-width: 100%;
         height: auto;
     }
+}
 
     body {
         margin: 0;
@@ -154,7 +153,3 @@ body {
     }
 }
 
-/* Adjustments for screens between 601px and 1000px wide */
-@media only screen and (min-width: 601px) and (max-width: 1000px) {
-    /* Styles specific to this width range */
-}
