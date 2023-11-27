@@ -114,10 +114,10 @@ body {
 /* Existing styles for larger screens */
 
 @media only screen and (max-width: 400px) {
-    /* Adjustments for smaller screens */
+   
 	
     .additional-image {
-        margin-top: 40px; /* Adjusted bottom position to bring the additional image down */
+        margin-top: 40px; 
     }
 
 	body {
