@@ -90,29 +90,27 @@ header img.logo:hover {
 .gallery a:hover .image-text {
     opacity: 1; 
 }
-/* ... (existing styles) ... */
 
-/* Example media query for smaller screens */
 @media only screen and (max-width: 600px) {
     .top-left a {
-        font-size: 18px; /* Adjusted font size for smaller screens */
+        font-size: 18px; 
     }
 
     header img.logo {
-        width: 200px; /* Adjusted width for the logo on smaller screens */
+        width: 200px; 
 		header img.logo {
-        width: 200px; /* Adjusted width for the logo on smaller screens */
-        margin-top: 20px; /* Adjusted margin-top to bring the logo down */
+        width: 200px;
+        margin-top: 20px; 
     }
     }
 
     .gallery {
-        grid-template-columns: repeat(1, 1fr); /* Adjusted grid for one column on smaller screens */
-        grid-gap: 20px; /* Reduced grid gap for better spacing on smaller screens */
-        margin-top: 40px; /* Reduced top margin for better spacing on smaller screens */
+        grid-template-columns: repeat(1, 1fr); 
+        grid-gap: 20px; 
+        margin-top: 40px;
     }
 
     .gallery img {
-        max-width: 100%; /* Allow images to scale based on the container width */
+        max-width: 100%; 
     }
 }
