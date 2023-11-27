@@ -13,9 +13,9 @@ body {
     top: 10px;
     left: 10px;
     list-style-type: none;
-    padding: 10px;
+    padding: 0px;
     background-color: #808080;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 .top-left li {
@@ -47,6 +47,7 @@ header img.logo {
     height: auto;
     filter: brightness(0);
     transition: filter 0.3s ease-in-out;
+	margin-top: 30px;
 }
 
 header img.logo:hover {
@@ -58,7 +59,7 @@ header img.logo:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px; /* Adjust the gap between images */
     justify-content: center;
-    margin-top: 80px; /* Adjust margin to account for fixed navigation */
+    margin-top: 20px; /* Adjust margin to account for fixed navigation */
     margin-bottom: 20px; /* Add margin at the bottom for better spacing */
 }
 
@@ -89,17 +90,29 @@ header img.logo:hover {
 .gallery a:hover .image-text {
     opacity: 1; 
 }
+/* ... (existing styles) ... */
+
 /* Example media query for smaller screens */
 @media only screen and (max-width: 600px) {
     .top-left a {
-        font-size: 30px;
+        font-size: 18px; /* Adjusted font size for smaller screens */
     }
 
     header img.logo {
-        width: 300px;
+        width: 200px; /* Adjusted width for the logo on smaller screens */
+		header img.logo {
+        width: 200px; /* Adjusted width for the logo on smaller screens */
+        margin-top: 20px; /* Adjusted margin-top to bring the logo down */
+    }
+    }
+
+    .gallery {
+        grid-template-columns: repeat(1, 1fr); /* Adjusted grid for one column on smaller screens */
+        grid-gap: 20px; /* Reduced grid gap for better spacing on smaller screens */
+        margin-top: 40px; /* Reduced top margin for better spacing on smaller screens */
     }
 
     .gallery img {
-        width: 150px;
+        max-width: 100%; /* Allow images to scale based on the container width */
     }
 }
