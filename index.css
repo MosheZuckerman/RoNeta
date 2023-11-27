@@ -113,12 +113,11 @@ body {
 		}
 @media only screen and (max-width: 600px) {
     .top-left a {
-        font-size: 18px; /* Adjusted font size for smaller screens */
+        font-size: 15px; /* Adjusted font size for smaller screens */
     }
 
     header img.logo {
         width: 200px; /* Adjusted width for the logo on smaller screens */
-		header img.logo {
         margin-top: 20px; /* Adjusted margin-top to bring the logo down */
     }
 	.page-navigation {
