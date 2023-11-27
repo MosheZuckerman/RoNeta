@@ -113,23 +113,23 @@ body {
 		}
 @media only screen and (max-width: 600px) {
     .top-left a {
-        font-size: 15px; /* Adjusted font size for smaller screens */
+        font-size: 5px; /* Adjusted font size for smaller screens */
     }
 
     header img.logo {
-        width: 200px; /* Adjusted width for the logo on smaller screens */
-        margin-top: 20px; /* Adjusted margin-top to bring the logo down */
+        width: 150px; /* Adjusted width for the logo on smaller screens */
+        margin-top: 30px; /* Adjusted margin-top to bring the logo down */
     }
 	.page-navigation {
         top: 5px; /* Adjusted top position to move the navigation up */
-        padding: 10px; /* Adjusted padding for better spacing on smaller screens */
+        padding: 0px; /* Adjusted padding for better spacing on smaller screens */
         margin: 0; /* Removed margin for better alignment */
     }
 
     .gallery {
         grid-template-columns: repeat(1, 1fr); /* Adjusted grid for one column on smaller screens */
         grid-gap: 20px; /* Reduced grid gap for better spacing on smaller screens */
-        margin-top: 40px; /* Reduced top margin for better spacing on smaller screens */
+        margin-top: 20px; /* Reduced top margin for better spacing on smaller screens */
     }
 
     .gallery img {
