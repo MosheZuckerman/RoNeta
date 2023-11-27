@@ -62,13 +62,13 @@ body {
         }
 
         .logo-container:hover .logo {
-            filter: brightness(1) invert(0);
+            filter: brightness(9) invert(0);
         }
 
         img.logo {
             width: 300px;
             height: 300px;
-            filter: brightness(0) invert(1);
+            filter: brightness(9) invert(1);
         }
 		header img.logo {
 			width: 300px;
