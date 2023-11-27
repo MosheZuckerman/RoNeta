@@ -121,11 +121,6 @@ body {
         height: auto;
     }
 
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
     body .top-left a {
         font-size: 12px;
     }
@@ -142,12 +137,6 @@ body {
     }
 
     body .gallery {
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 5px;
         margin-top: 40px;
-    }
-
-    body .gallery img {
-        max-width: 100%;
     }
 }
