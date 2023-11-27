@@ -117,7 +117,7 @@ body {
     /* Adjustments for smaller screens */
 	
     .additional-image {
-        top: 90%; /* Adjusted bottom position to bring the additional image down */
+        margin-top: 10px; /* Adjusted bottom position to bring the additional image down */
     }
 
 	body {
