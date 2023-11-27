@@ -113,16 +113,18 @@ body {
 		}
 /* Existing styles for larger screens */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 20vw) and (max-width: 100vw) {
     /* Adjustments for smaller screens */
 	
     
 .additional-image {
-    position: relative;
-    top: 10px; /* Adjusted top position to bring the additional image down */
-    max-width: 100%;
-    height: auto;
-}
+  .additional-image {
+        position: absolute;
+        bottom: 10px; /* Adjusted bottom position to bring the additional image down */
+        left: 5px; /* Adjusted left position to maintain its left alignment */
+        max-width: 100%;
+        height: auto;
+    }
 
 
 	body {
