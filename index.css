@@ -119,13 +119,22 @@ body {
 		}
 /* Your existing styles */
 
+/* Existing styles */
+
+/* Existing styles */
+
 @media only screen and (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .top-left a {
-        font-size: 12px; /* Adjusted font size for smaller screens */
+        font-size: 14px; /* Adjusted font size for smaller screens */
     }
 
     header img.logo {
-        width: 100px; /* Adjusted width for the logo on smaller screens */
+        width: 150px; /* Adjusted width for the logo on smaller screens */
         margin-top: 5px; /* Adjusted margin-top to bring the logo down */
     }
 
@@ -133,6 +142,11 @@ body {
         top: 5px; /* Adjusted top position to move the navigation up */
         padding: 5px; /* Adjusted padding for better spacing on smaller screens */
         margin: 0; /* Removed margin for better alignment */
+    }
+
+    .page-navigation li {
+        display: block; /* Stack navigation links vertically */
+        margin-bottom: 10px; /* Add space between navigation links */
     }
 
     .gallery {
@@ -149,3 +163,4 @@ body {
         bottom: 5px; /* Adjusted bottom position to bring the additional image up */
     }
 }
+
