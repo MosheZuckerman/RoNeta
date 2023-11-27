@@ -117,8 +117,8 @@ body {
     }
 
     header img.logo {
-        width: 150px; /* Adjusted width for the logo on smaller screens */
-        margin-top: 10px; /* Adjusted margin-top to bring the logo down */
+        width: 100px; /* Adjusted width for the logo on smaller screens */
+        margin-top: 5px; /* Adjusted margin-top to bring the logo down */
     }
 	.page-navigation {
         top: 5px; /* Adjusted top position to move the navigation up */
@@ -137,6 +137,6 @@ body {
     }
 }
     .additional-image {
-        bottom: 10px; /* Adjusted bottom position to bring the additional image up */
+        bottom: 5px; /* Adjusted bottom position to bring the additional image up */
     }
 }
