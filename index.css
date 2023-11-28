@@ -1,6 +1,6 @@
 body {
     margin: 10px;
-    padding: 2px;
+    padding: 5px;
     font-family: 'Helvetica', sans-serif;
     background-image: url("site pics/backrounds/2.jpg") !important;
     background-size: cover;
@@ -11,17 +11,17 @@ body {
 
 .top-left {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 5px;
+    left: 20px;
     list-style-type: none;
-    padding: 0px;
+    padding: 5px;
     background-color: #808080;
     border-radius: 0px;
 }
 
 .top-left li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .top-left a {
@@ -37,7 +37,7 @@ body {
             margin: 5;
             position: absolute;
             top: 5px;
-            left: 5px;
+            left: 20px;
         }
 
         .page-navigation li {
@@ -72,7 +72,7 @@ body {
         }
 		
 		header img.logo {
-			width: 300px;
+			width: 400px;
 			height: auto;
 			filter: brightness(0);
 			transition: filter 0.3s ease-in-out;
@@ -103,7 +103,7 @@ body {
 
         .gallery a {
             flex: 0 0 calc(33.33% - 20px);
-            margin: 20px 10px;
+            margin: 30px 10px;
             text-align: center;
             text-decoration: none;
             color: #808000;
@@ -117,43 +117,3 @@ body {
 			z-index: 0;
 		}
 			
-
-@media only screen and (max-width: 200px) {
-    .additional-image {
-        position: absolute;
-        bottom: 10px; 
-        left: 5px; 
-        max-width: 100%;
-        height: auto;
-    }
-
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
-    .top-left a {
-        font-size: 12px; 
-    }
-
-    header img.logo {
-        width: 150px; 
-        margin-top: 20px; 
-    }
-
-    .page-navigation {
-        top: 5px; 
-        padding: 5px; 
-        margin: 0; 
-    }
-
-    .gallery {
-        grid-template-columns: repeat(1, 1fr); 
-        grid-gap: 5px; 
-        margin-top: 450px; 
-    }
-
-    .gallery img {
-        max-width: 100%; 
-    }
-}
