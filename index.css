@@ -70,12 +70,17 @@ body {
             height: 300px;
             filter: brightness(0) invert(1);
         }
+		
 		header img.logo {
 			width: 300px;
 			height: auto;
 			filter: brightness(0);
 			transition: filter 0.3s ease-in-out;
-			margin-top: 30px;
+			margin-top: 50px;
+		}
+		
+		header img.logo:hover {
+			filter: brightness(9);
 		}
 
         img {
@@ -112,12 +117,12 @@ body {
 			z-index: 0;
 		}
 			
-/* Adjustments for screens up to 600px wide */
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 200px) {
     .additional-image {
         position: absolute;
-        bottom: 10px; /* Adjusted bottom position to bring the additional image down */
-        left: 5px; /* Adjusted left position to maintain its left alignment */
+        bottom: 10px; 
+        left: 5px; 
         max-width: 100%;
         height: auto;
     }
@@ -128,27 +133,27 @@ body {
     }
 
     .top-left a {
-        font-size: 12px; /* Adjusted font size for smaller screens */
+        font-size: 12px; 
     }
 
     header img.logo {
-        width: 150px; /* Adjusted width for the logo on smaller screens */
-        margin-top: 20px; /* Adjusted margin-top to bring the logo down */
+        width: 150px; 
+        margin-top: 20px; 
     }
 
     .page-navigation {
-        top: 5px; /* Adjusted top position to move the navigation up */
-        padding: 5px; /* Adjusted padding for better spacing on smaller screens */
-        margin: 0; /* Removed margin for better alignment */
+        top: 5px; 
+        padding: 5px; 
+        margin: 0; 
     }
 
     .gallery {
-        grid-template-columns: repeat(1, 1fr); /* Adjusted grid for one column on smaller screens */
-        grid-gap: 5px; /* Reduced grid gap for better spacing on smaller screens */
-        margin-top: 40px; /* Reduced top margin for better spacing on smaller screens */
+        grid-template-columns: repeat(1, 1fr); 
+        grid-gap: 5px; 
+        margin-top: 450px; 
     }
 
     .gallery img {
-        max-width: 100%; /* Allow images to scale based on the container width */
+        max-width: 100%; 
     }
 }

@@ -38,6 +38,7 @@ header img.logo {
     height: auto;
     filter: brightness(0);
     transition: filter 0.3s ease-in-out;
+	  margin-top: 100px;									
 }
 
 header img.logo:hover {
@@ -60,7 +61,7 @@ header img.logo:hover {
     height: auto;
     margin: 10px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 200px) {
     .top-left li {
         display: block;
         margin-bottom: 10px;
@@ -77,4 +78,7 @@ header img.logo:hover {
     .gallery img {
         width: 150px;
     }
+}
+main {
+    margin-top: 100px; 
 }
