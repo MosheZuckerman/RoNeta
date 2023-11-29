@@ -116,4 +116,57 @@ body {
 		.additional-image {
 			z-index: 0;
 		}
-			
+@media only screen and (max-width: 768px) {
+    .top-left li,
+    .page-navigation li {
+        margin-right: 40px;
+    }
+
+    .top-left a {
+        font-size: 4em;
+    }
+
+    .page-navigation a {
+        font-size: 25px;
+    }
+
+    .logo-container {
+        margin-top: 5px;
+        text-align: center; /* Center the content horizontally */
+    }
+
+    img.logo {
+        width: 200px;
+        height: 200px;
+        margin: 20px auto; /* Center the logo horizontally */
+    }
+
+    header img.logo {
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    .additional-image {
+        max-width: 450px;
+        top: 200px; /* Adjusted top position to move the image up */
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .gallery a {
+        flex: 0 0 100%;
+        margin: 15px 0;
+    }
+}
+
+				
+				
+@media only screen and (max-width: 480px) {		
+				
+				
+				
+				
+				
+				
