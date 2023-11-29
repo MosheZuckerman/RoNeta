@@ -5,7 +5,7 @@ body {
     color: #808000;
     margin: 2%; 
     padding: 1%; 
-    background-image: url("site pics/backrounds/1.jpg");
+    background-image: url("site pics/backrounds/6.jpg");
     background-size: cover;
     background-position: center;
     font-weight: normal;
@@ -23,19 +23,19 @@ body {
 
 .page-navigation li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .page-navigation a {
     text-decoration: none;
     font-size: 1em;
-    color: black;
+    color: white;
     transition: color 0.3s ease-in-out;
 }
 
 .page-navigation a:hover {
     text-decoration: underline;
-    color: white;
+    color: black;
     background-color: transparent; 
 }
 
@@ -49,7 +49,7 @@ body {
 img.logo {
     width: 300px;
     height: 300px;
-    filter: brightness(0);
+    filter: brightness(9);
     position: absolute;
     top: 20px;
     right: 20px;
@@ -59,7 +59,7 @@ img.logo {
 }
 
 img.logo:hover {
-    filter: brightness(9);	
+    filter: brightness(0);	
 }	
 
 
@@ -68,14 +68,14 @@ ol {
     list-style-type: none;
     padding: 50px;
     text-align: center;
-    color: #808000;
+    color: #FFFFFF;
     margin-top: 200px; 
 }
 
 ol h1 {
     font-family: 'Pacifico', cursive;
     font-size: 1.5em;
-    color: #808000;
+    color: #FFFFFF  ;
 }
 
 ol li {
@@ -83,7 +83,7 @@ ol li {
 }
 
 img.family-image {
-    width: 175px;
+    width: 200px;
     height: auto;
     position: absolute;
     top: 2%;
