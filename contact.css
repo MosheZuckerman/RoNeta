@@ -1,0 +1,149 @@
+/* styles.css */
+
+.custom-navigation {
+    list-style: none;
+    padding: 30px;
+    text-align: left;
+    margin: 0;
+}
+
+.custom-navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.custom-navigation a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-navigation a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+div {
+    text-align: right;
+}
+
+img.logo {
+    width: 300px;
+    height: 300px;
+    filter: brightness(0) invert(1);
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    color: #F5F5DC;
+}
+
+ol {
+    list-style-type: none;
+    padding: 30px;
+    text-align: center;
+    color: #F5F5DC;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+ol li {
+    margin: 40px;
+}
+
+#additional-image-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#additional-image-container li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#additional-image-container a {
+    text-decoration: none;
+   
+}
+
+#additional-image-container img {
+    width: 50px;
+    height: auto;
+}
+
+
+
+ol {
+    list-style-type: none;
+    padding: 10px;
+    text-align: right;
+    color: #F5F5DC;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+ol li {
+    margin: 10px;
+}
+
+
+}
+@media only screen and (max-width: 200px) {
+	  header img.logo {
+        width: 50px; /* Adjust the width for small screens */
+        margin-top: 10px;
+    }
+}
+	
+    .additional-image {
+        position: absolute;
+        bottom: 0px; 
+        left: 5px; 
+        max-width: 100%;
+        height: auto;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-left a {
+        font-size: 10px !important;
+    }
+
+    header img.logo {
+        width: 150px; 
+        margin-top: 400px; 
+    }
+
+    .page-navigation {
+        top: 0px; 
+        padding: 0px; 
+        margin: 0; 
+    }
+
+    .gallery {
+        grid-template-columns: repeat(1, 1fr); 
+        grid-gap: 5px; 
+        margin-top: 10px; 
+    }
+
+    .gallery img {
+        max-width: 100%; 
+    }
+}
+
+	
+	
+
+
+
